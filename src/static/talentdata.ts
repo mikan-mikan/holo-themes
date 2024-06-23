@@ -319,7 +319,7 @@ export const talentData = {
         "name": "Ninomae Ina'nis",
         "link": "https://chromewebstore.google.com/detail/inanis-color/pmcmeamnmiebbnmocijhadbdaghdenll",
         "emoji": "🐙",
-        "image": "/themes/theme-inanis-color/shop/inanis_promotion-tile.jpg"
+        "image": "/themes/theme-Inanis-color/shop/inanis_promotion-tile.jpg"
       },
       {
         "name": "Gawr Gura",
