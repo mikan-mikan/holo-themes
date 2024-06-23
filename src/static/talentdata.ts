@@ -150,13 +150,13 @@ export const talentData = {
         "image": "/themes/theme-kanata-color/shop/kanata_promotion-tile.jpg"
       },
       {
-        "name": "Kiryu Coco",
+        "name": "<Alum> Kiryu Coco",
         "link": "https://chromewebstore.google.com/detail/coco-color/ebjkiijhfkiefljbhgclgfboghpojfco",
         "emoji": "🐉",
         "image": "/themes/theme-coco-color/shop/coco_promotion-tile.jpg"
       },
       {
-        "name": "Kiryu Coco2",
+        "name": "<Alum> Kiryu Coco2",
         "link": "https://chromewebstore.google.com/detail/coco2-color/jhilpjaaednfnoichbdfgkccpplimhpi",
         "emoji": "🐉",
         "image": "/themes/theme-coco2-color/shop/coco2_promotion-tile.jpg"
@@ -372,6 +372,12 @@ export const talentData = {
         "link": "https://chromewebstore.google.com/detail/hakos-color/oeaddkfkaclcdkiiapepcombeailbaof",
         "emoji": "🎲",
         "image": "/themes/theme-baelz-color/shop/baelz_promotion-tile.jpg"
+      },
+      {
+        "name": "<Alum> Tsukumo Sana",
+        "link": "https://chromewebstore.google.com/detail/sana-color/ccmdlbmlhhohnmpdoilknappcdgkdgjf",
+        "emoji": "🪐",
+        "image": "/themes/theme-sana-color/shop/sana_promotion-tile.jpg"
       }
     ],
     "Promise": [
