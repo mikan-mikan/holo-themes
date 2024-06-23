@@ -40,7 +40,7 @@ export const anchorLinkList = {
     },
     {
       title: "GAMERS",
-      id: "JEN3",
+      id: "GAMERS",
       href: "#GAMERS",
     },
     {
