@@ -362,7 +362,7 @@ export const talentData = {
         "image": "/themes/theme-mumei-color/shop/mumei_promotion-tile.jpg"
       },
       {
-        "name": "NaNashi Mumei2",
+        "name": "Nanashi Mumei2",
         "link": "https://chromewebstore.google.com/detail/mumei2-color/ljbcoiojpdhkjcmmdojjppghlcdpnnkp",
         "emoji": "🪶",
         "image": "/themes/theme-mumei2-color/shop/mumei_promotion-tile.jpg"
