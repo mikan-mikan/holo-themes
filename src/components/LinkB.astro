@@ -23,7 +23,7 @@ const { href, title } = Astro.props;
     transition: all 0.3s;
   }
 
-  .link-b:hover {
+  .link-b:is(:hover, :focus-within) {
     text-decoration: none;
     background-color: var(--color-tertiary-light);
   }
