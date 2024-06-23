@@ -1,105 +1,36 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
 import Card from "../components/Card.astro";
 import LinkA from "../components/LinkA.astro";
 import LinkB from "../components/LinkB.astro";
+import Heading2 from "../components/Heading2.astro";
+import Heading3 from "../components/Heading3.astro";
 import "@fontsource-variable/noto-sans-jp";
-
-const anchorLinkList = {
-  JP: [
-    {
-      title: "JEN 0",
-      href: "#",
-    },
-    {
-      title: "JEN 1",
-      href: "#",
-    },
-    {
-      title: "JEN 2",
-      href: "#",
-    },
-    {
-      title: "JEN 3",
-      href: "#",
-    },
-    {
-      title: "JEN 4",
-      href: "#",
-    },
-    {
-      title: "JEN 5",
-      href: "#",
-    },
-    {
-      title: "HoloX",
-      href: "#",
-    },
-  ],
-  EN: [
-    {
-      title: "JEN 0",
-      href: "#",
-    },
-    {
-      title: "JEN 1",
-      href: "#",
-    },
-    {
-      title: "JEN 2",
-      href: "#",
-    },
-    {
-      title: "JEN 3",
-      href: "#",
-    },
-    {
-      title: "JEN 4",
-      href: "#",
-    },
-  ],
-  ID: [
-    {
-      title: "JEN 0",
-      href: "#",
-    },
-    {
-      title: "JEN 1",
-      href: "#",
-    },
-    {
-      title: "JEN 2",
-      href: "#",
-    },
-    {
-      title: "JEN 3",
-      href: "#",
-    },
-  ],
-  DEV: [
-    {
-      title: "JEN 0",
-      href: "#",
-    },
-  ],
-};
+import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
 ---
 
 <Layout title="Hololove Chrome Themes">
   <main>
     <div class="container">
-      <h1>Hololive<br />Chrome Themes</h1>
+      <h1 class="heading1">Hololive<br />Chrome Themes</h1>
 
       <ul class="link-contents">
         <li class="link-contents__box">
-          <LinkA href="#" title="JP" />
+          <LinkA
+            href={anchorLinkMain[0].href}
+            title={anchorLinkMain[0].title}
+          />
           {
             anchorLinkList.JP.map((data) => (
               <LinkB href={data.href} title={data.title} />
             ))
           }
           <li class="link-contents__box">
-            <LinkA href="#" title="EN" />
+            <LinkA
+              href={anchorLinkMain[1].href}
+              title={anchorLinkMain[1].title}
+            />
             {
               anchorLinkList.EN.map((data) => (
                 <LinkB href={data.href} title={data.title} />
@@ -107,7 +38,10 @@ const anchorLinkList = {
             }
           </li>
           <li class="link-contents__box">
-            <LinkA href="#" title="ID" />
+            <LinkA
+              href={anchorLinkMain[2].href}
+              title={anchorLinkMain[2].title}
+            />
             {
               anchorLinkList.ID.map((data) => (
                 <LinkB href={data.href} title={data.title} />
@@ -115,9 +49,12 @@ const anchorLinkList = {
             }
           </li>
           <li class="link-contents__box">
-            <LinkA href="#" title="DEV" />
+            <LinkA
+              href={anchorLinkMain[3].href}
+              title={anchorLinkMain[3].title}
+            />
             {
-              anchorLinkList.DEV.map((data) => (
+              anchorLinkList.DEV_IS.map((data) => (
                 <LinkB href={data.href} title={data.title} />
               ))
             }
@@ -125,30 +62,47 @@ const anchorLinkList = {
         </li>
       </ul>
 
-      <ul role="list" class="link-card-grid">
-        <Card
-          href="https://docs.astro.build/"
-          title="Documentation"
-          body="Learn how Astro works and explore the official API docs."
+      <section>
+        <Heading2 title={anchorLinkMain[0].title} id={anchorLinkMain[0].id} />
+        <Heading3
+          title={anchorLinkList.JP[0].title}
+          id={anchorLinkList.JP[0].id}
         />
-        <Card
-          href="https://astro.build/integrations/"
-          title="Integrations"
-          body="Supercharge your project with new frameworks and libraries."
+        <ul role="list" class="link-card-grid">
+          <Card
+            href="https://docs.astro.build/"
+            title="Documentation"
+            body="Learn how Astro works and explore the official API docs."
+          />
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[1].title}
+          id={anchorLinkList.JP[1].id}
         />
-        <Card
-          href="https://astro.build/themes/"
-          title="Themes"
-          body="Explore a galaxy of community-built starter themes."
+        <ul role="list" class="link-card-grid">
+          <Card
+            href="https://docs.astro.build/"
+            title="Documentation"
+            body="Learn how Astro works and explore the official API docs."
+          />
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[2].title}
+          id={anchorLinkList.JP[2].id}
         />
-        <Card
-          href="https://astro.build/chat/"
-          title="Community"
-          body="Come say hi to our amazing Discord community. ❤️"
-        />
-      </ul>
+        <ul role="list" class="link-card-grid">
+          <Card
+            href="https://docs.astro.build/"
+            title="Documentation"
+            body="Learn how Astro works and explore the official API docs."
+          />
+        </ul>
+      </section>
     </div>
   </main>
+  <Footer />
 </Layout>
 
 <style>
@@ -161,7 +115,7 @@ const anchorLinkList = {
     font-size: 20px;
     line-height: 1.6;
   }
-  h1 {
+  .heading1 {
     font-size: 6.4rem;
     line-height: 1.5;
     letter-spacing: 0.03em;
@@ -173,7 +127,7 @@ const anchorLinkList = {
 
   .link-contents {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     justify-content: center;
     flex-wrap: wrap;
   }
