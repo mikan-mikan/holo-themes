@@ -8,6 +8,7 @@ import Heading2 from "../components/Heading2.astro";
 import Heading3 from "../components/Heading3.astro";
 import "@fontsource-variable/noto-sans-jp";
 import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
+import { talentData } from "../static/talentdata.ts";
 ---
 
 <Layout title="Hololove Chrome Themes">
@@ -32,7 +33,7 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
               title={anchorLinkMain[1].title}
             />
             {
-              anchorLinkList.EN.map((data) => (
+              anchorLinkList.ID.map((data) => (
                 <LinkB href={data.href} title={data.title} />
               ))
             }
@@ -43,7 +44,7 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
               title={anchorLinkMain[2].title}
             />
             {
-              anchorLinkList.ID.map((data) => (
+              anchorLinkList.EN.map((data) => (
                 <LinkB href={data.href} title={data.title} />
               ))
             }
@@ -68,36 +69,301 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
           title={anchorLinkList.JP[0].title}
           id={anchorLinkList.JP[0].id}
         />
-        <ul role="list" class="link-card-grid">
-          <Card
-            href="https://docs.astro.build/"
-            title="Documentation"
-            body="Learn how Astro works and explore the official API docs."
-          />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen0.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
         </ul>
 
         <Heading3
           title={anchorLinkList.JP[1].title}
           id={anchorLinkList.JP[1].id}
         />
-        <ul role="list" class="link-card-grid">
-          <Card
-            href="https://docs.astro.build/"
-            title="Documentation"
-            body="Learn how Astro works and explore the official API docs."
-          />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen1.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
         </ul>
 
         <Heading3
           title={anchorLinkList.JP[2].title}
           id={anchorLinkList.JP[2].id}
         />
-        <ul role="list" class="link-card-grid">
-          <Card
-            href="https://docs.astro.build/"
-            title="Documentation"
-            body="Learn how Astro works and explore the official API docs."
-          />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen2.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[3].title}
+          id={anchorLinkList.JP[3].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.GAMERS.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[4].title}
+          id={anchorLinkList.JP[4].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen3.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[5].title}
+          id={anchorLinkList.JP[5].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen4.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[6].title}
+          id={anchorLinkList.JP[6].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.Gen5.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.JP[7].title}
+          id={anchorLinkList.JP[7].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.JP.holoX.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+      </section>
+
+      <section>
+        <Heading2 title={anchorLinkMain[1].title} id={anchorLinkMain[1].id} />
+        <Heading3
+          title={anchorLinkList.ID[0].title}
+          id={anchorLinkList.ID[0].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.ID.Gen1.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.ID[1].title}
+          id={anchorLinkList.ID[1].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.ID.Gen2.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.ID[2].title}
+          id={anchorLinkList.ID[2].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.ID.Gen3.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+      </section>
+
+      <section>
+        <Heading2 title={anchorLinkMain[2].title} id={anchorLinkMain[2].id} />
+        <Heading3
+          title={anchorLinkList.EN[0].title}
+          id={anchorLinkList.EN[0].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.EN.Myth.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.EN[1].title}
+          id={anchorLinkList.EN[1].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.EN.HOPE.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.EN[2].title}
+          id={anchorLinkList.EN[2].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.EN.Council.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.EN[3].title}
+          id={anchorLinkList.EN[3].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.EN.Promise.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3
+          title={anchorLinkList.EN[4].title}
+          id={anchorLinkList.EN[4].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.EN.Advent.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul>
+
+        <Heading3 title="Justice" id="justice" />
+        <p>comming soon.</p>
+      </section>
+
+      <section>
+        <Heading2 title={anchorLinkMain[3].title} id={anchorLinkMain[3].id} />
+        <Heading3
+          title={anchorLinkList.DEV_IS[0].title}
+          id={anchorLinkList.DEV_IS[0].id}
+        />
+        <ul class="link-card-grid">
+          {
+            talentData.DEV_IS.ReGLOSS.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
         </ul>
       </section>
     </div>
@@ -110,7 +376,7 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
     margin: auto;
     padding: 10rem 0;
     max-width: 1400px;
-    width: calc(100% - 3rem);
+    width: 90%;
     color: white;
     font-size: 20px;
     line-height: 1.6;
@@ -122,7 +388,7 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
     text-align: center;
     margin-bottom: 1em;
     font-weight: 900;
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP Variable", sans-serif;
   }
 
   .link-contents {
@@ -139,7 +405,7 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
 
   .link-card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 32.5rem));
     gap: 3.2rem;
     padding: 0;
   }

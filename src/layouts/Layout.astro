@@ -1,4 +1,6 @@
 ---
+import "@fontsource-variable/noto-sans-jp";
+
 interface Props {
   title: string;
 }
@@ -54,9 +56,10 @@ const { title } = Astro.props;
   }
 
   :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
+    --accent: 57, 171, 224;
+    --accent-light: 181, 230, 247;
+    --accent-dark: 29, 87, 112;
+
     --accent-gradient: linear-gradient(
       45deg,
       rgb(var(--accent)),
@@ -67,9 +70,10 @@ const { title } = Astro.props;
     --color-secondary: #244667;
     --color-tertiary: #13151a;
     --color-tertiary-light: #5b7291;
+    --color-card-bg: #23262d;
   }
   html {
-    font-family: system-ui, sans-serif;
+    font-family: "Noto Sans JP Variable", system-ui, sans-serif;
     background: var(--color-tertiary);
     background-size: 224px;
     font-size: 62.5%;

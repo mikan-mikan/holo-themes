@@ -1,4 +1,4 @@
-const talentData = {
+export const talentData = {
   "JP": {
     "Gen0": [
       {
@@ -139,6 +139,7 @@ const talentData = {
         "name": "Honshou Marine",
         "link": "https://chromewebstore.google.com/detail/marine-color/hnhggifdkkoebnadokljhbnhlhkgghcb",
         "emoji": "🏴‍☠️",
+        "image": "/public/themes/theme-marine-color/shop/marine_promotion-tile.jpg"
       }
     ],
     "Gen4": [
@@ -256,7 +257,7 @@ const talentData = {
         "name": "Airani Iofifteen",
         "link": "https://chromewebstore.google.com/detail/iofifteen-color/fjpmcjefljlbaogefkkbfdiihdldnoio",
         "emoji": "🎨",
-        "image": "/public/themes/theme-iofifteen-color/shop/iofifteen_promotion-tile.jpg"
+        "image": "/public/themes/theme-iofifteen-color/shop/iofi_promotion-tile.jpg"
       }
     ],
     "Gen2": [
@@ -364,13 +365,13 @@ const talentData = {
         "name": "NaNashi Mumei2",
         "link": "https://chromewebstore.google.com/detail/mumei2-color/ljbcoiojpdhkjcmmdojjppghlcdpnnkp",
         "emoji": "🪶",
-        "image": "/public/themes/theme-mumei2-color/shop/mumei2_promotion-tile.jpg"
+        "image": "/public/themes/theme-mumei2-color/shop/mumei_promotion-tile.jpg"
       },
       {
         "name": "Hakos Baelz",
         "link": "https://chromewebstore.google.com/detail/hakos-color/oeaddkfkaclcdkiiapepcombeailbaof",
         "emoji": "🎲",
-        "image": "/public/themes/theme-hakos-color/shop/hakos_promotion-tile.jpg"
+        "image": "/public/themes/theme-baelz-color/shop/baelz_promotion-tile.jpg"
       }
     ],
     "Promise": [
@@ -402,7 +403,13 @@ const talentData = {
         "name": "NaNashi Mumei2",
         "link": "https://chromewebstore.google.com/detail/mumei2-color/ljbcoiojpdhkjcmmdojjppghlcdpnnkp",
         "emoji": "🪶",
-        "image": "/public/themes/theme-mumei2-color/shop/mumei2_promotion-tile.jpg"
+        "image": "/public/themes/theme-mumei2-color/shop/mumei_promotion-tile.jpg"
+      },
+      {
+        "name": "Hakos Baelz",
+        "link": "https://chromewebstore.google.com/detail/hakos-color/oeaddkfkaclcdkiiapepcombeailbaof",
+        "emoji": "🎲",
+        "image": "/public/themes/theme-baelz-color/shop/baelz_promotion-tile.jpg"
       }
     ],
     "Advent": [
@@ -471,7 +478,7 @@ const talentData = {
     // ]
   },
   "DEV_IS": {
-    "Gen1": [
+    "ReGLOSS": [
       {
         "name": "Hiodoshi Ao",
         "link": "https://chromewebstore.google.com/detail/ao-color/fdfpdifcgokbgafpbiboockchphmaanh",

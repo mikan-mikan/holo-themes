@@ -5,14 +5,14 @@ export const anchorLinkMain = [
     href: "#JP",
   },
   {
-    title: "EN",
-    id: "EN",
-    href: "#EN",
-  },
-  {
     title: "ID",
     id: "ID",
     href: "#ID",
+  },
+  {
+    title: "EN",
+    id: "EN",
+    href: "#EN",
   },
   {
     title: "DEV_IS",
@@ -64,6 +64,30 @@ export const anchorLinkList = {
       href: "#holoX",
     },
   ],
+  ID: [
+    {
+      title: "JEN 1",
+      id: "IDJEN1",
+      href: "#IDJEN1",
+    },
+    {
+      title: "JEN 2",
+      id: "IDJEN2",
+      href: "#IDJEN2",
+    },
+    {
+      title: "JEN 3",
+      id: "IDJEN3",
+      href: "#IDJEN3",
+    },
+  ],
+  DEV_IS: [
+    {
+      title: "ReGLOSS",
+      id: "ReGLOSS",
+      href: "#ReGLOSS",
+    },
+  ],
   EN: [
     {
       title: "Myth",
@@ -95,29 +119,5 @@ export const anchorLinkList = {
     // 	id: "Justice",
     // 	href: "#Justice",
     // },
-  ],
-  ID: [
-    {
-      title: "JEN 1",
-      id: "IDJEN1",
-      href: "#IDJEN1",
-    },
-    {
-      title: "JEN 2",
-      id: "IDJEN2",
-      href: "#IDJEN2",
-    },
-    {
-      title: "JEN 3",
-      id: "IDJEN3",
-      href: "#IDJEN3",
-    },
-  ],
-  DEV_IS: [
-    {
-      title: "ReGLOSS",
-      id: "ReGLOSS",
-      href: "#ReGLOSS",
-    },
   ],
 };
