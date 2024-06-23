@@ -1,5 +1,15 @@
 <footer class="footer">
-  <small>&copy; 2024 kon-k.</small>
+  <p class="footer__lead">
+    This site is unofficial by fans and is in no way affiliated with the
+    official hololive website.<br />
+    このサイトはファンによる非公式のものであり、hololiveの公式サイトとは一切関係ありません。
+  </p>
+  <a href="https://hololive.hololivepro.com/" class="footer__link"
+    >hololive（ホロライブ）公式サイトはこちら</a
+  > | <a href="/privacy/">privacy policy</a>
+  <p class="footer__copy">
+    <small>&copy; 2024 kon-k.</small>
+  </p>
 </footer>
 
 <style>
@@ -7,5 +17,15 @@
     padding: 1rem 0;
     text-align: center;
     color: var(--color-primary);
+  }
+  .footer__lead {
+    margin-bottom: 1rem;
+  }
+  .footer__link {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+  .footer__copy {
+    margin-top: 1rem;
   }
 </style>

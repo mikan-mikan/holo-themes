@@ -11,6 +11,19 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="ja">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8HTLJ219Y9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8HTLJ219Y9");
+    </script>
+
     <meta charset="UTF-8" />
     <meta
       name="description"
@@ -92,5 +105,8 @@ const { title } = Astro.props;
       Bitstream Vera Sans Mono,
       Courier New,
       monospace;
+  }
+  a {
+    color: var(--color-primary);
   }
 </style>
