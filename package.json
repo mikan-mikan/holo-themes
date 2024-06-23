@@ -16,5 +16,8 @@
     "@fontsource/russo-one": "^5.0.20",
     "astro": "^4.11.0",
     "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@astrojs/partytown": "^2.1.1"
   }
 }
