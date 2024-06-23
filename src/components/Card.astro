@@ -52,6 +52,9 @@ const { href, name, emoji, image } = Astro.props;
     margin-top: 0.8rem;
     margin-bottom: 0;
   }
+  .link-card > a img {
+    border-radius: 0.5rem;
+  }
   .link-card:is(:hover, :focus-within) {
     background-position: 0;
     background-image: var(--accent-gradient);
