@@ -4,9 +4,11 @@
     official hololive website.<br />
     このサイトはファンによる非公式のものであり、hololiveの公式サイトとは一切関係ありません。
   </p>
-  <a href="https://hololive.hololivepro.com/"
+  <a href="https://hololive.hololivepro.com/" class="footer__link"
     >hololive（ホロライブ）公式サイトはこちら</a
-  > | <a href="/privacy/">privacy policy</a>
+  ><span class="footer__bar">|</span><a href="/privacy/" class="footer__link"
+    >privacy policy</a
+  >
   <p class="footer__copy">
     <small>&copy; 2024 kon-k.</small>
   </p>
@@ -14,14 +16,26 @@
 
 <style>
   .footer {
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
     color: var(--color-primary);
+    font-size: 1.4rem;
+  }
+  .footer__link {
+    display: inline-block;
   }
   .footer__lead {
     margin-bottom: 1rem;
   }
   .footer__copy {
     margin-top: 1rem;
+  }
+  .footer__bar {
+    margin: 0 1em;
+  }
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 1.6rem;
+    }
   }
 </style>
