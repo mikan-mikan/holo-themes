@@ -114,10 +114,10 @@ export const anchorLinkList = {
       id: "Advent",
       href: "#Advent",
     },
-    // {
-    //   title: "Justice",
-    // 	id: "Justice",
-    // 	href: "#Justice",
-    // },
+    {
+      title: "Justice",
+      id: "Justice",
+      href: "#Justice",
+    },
   ],
 };

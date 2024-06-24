@@ -343,8 +343,23 @@ import { talentData } from "../static/talentdata.ts";
           }
         </ul>
 
-        <Heading3 title="Justice" id="justice" />
+        <Heading3
+          title={anchorLinkList.EN[5].title}
+          id={anchorLinkList.EN[5].id}
+        />
         <p>comming soon.</p>
+        <!-- <ul class="link-card-grid">
+          {
+            talentData.EN.Justice.map((data) => (
+              <Card
+                href={data.link}
+                name={data.name}
+                image={data.image}
+                emoji={data.emoji}
+              />
+            ))
+          }
+        </ul> -->
       </section>
 
       <section>

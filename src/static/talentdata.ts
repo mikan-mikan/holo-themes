@@ -456,32 +456,32 @@ export const talentData = {
         "image": "/themes/theme-fuwamoco-color/shop/fuwamoco_promotion-tile.jpg"
       }
     ],
-    // "Justice": [
-    //   {
-    //     "name": "Elizabeth Rose Bloodflame",
-    //     "link": "",
-    //     "emoji": "",
-    //     "image": ""
-    //   },
-    //   {
-    //     "name": "Gigi Murin",
-    //     "link": "",
-    //     "emoji": "",
-    //     "image": ""
-    //   },
-    //   {
-    //     "name": "Cecilia Immergreen",
-    //     "link": "",
-    //     "emoji": "",
-    //     "image": ""
-    //   },
-    //   {
-    //     "name": "Raora Panthera",
-    //     "link": "",
-    //     "emoji": "",
-    //     "image": ""
-    //   },
-    // ]
+    "Justice": [
+      {
+        "name": "Elizabeth Rose Bloodflame",
+        "link": "",
+        "emoji": "💄",
+        "image": "/themes/theme-elizabeth-color/shop/elizabeth_promotion-tile.jpg"
+      },
+      {
+        "name": "Gigi Murin",
+        "link": "",
+        "emoji": "👧",
+        "image": "/themes/theme-gigi-color/shop/gigi_promotion-tile.jpg"
+      },
+      {
+        "name": "Cecilia Immergreen",
+        "link": "",
+        "emoji": "🍵",
+        "image": "/themes/theme-cecilia-color/shop/cecilia_promotion-tile.jpg"
+      },
+      {
+        "name": "Raora Panthera",
+        "link": "",
+        "emoji": "🐱",
+        "image": "/themes/theme-raora-color/shop/raora_promotion-tile.jpg"
+      },
+    ]
   },
   "DEV_IS": {
     "ReGLOSS": [
