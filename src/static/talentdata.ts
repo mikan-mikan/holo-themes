@@ -459,25 +459,25 @@ export const talentData = {
     "Justice": [
       {
         "name": "Elizabeth Rose Bloodflame",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/elizabeth-color/hgdnhdmndbimclcapddhkdkhmahgfmdb",
         "emoji": "💄",
         "image": "/themes/theme-elizabeth-color/shop/elizabeth_promotion-tile.jpg"
       },
       {
         "name": "Gigi Murin",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/gigi-color/kifojpjppfjhfldhmmkacdnnohnnnedf",
         "emoji": "👧",
         "image": "/themes/theme-gigi-color/shop/gigi_promotion-tile.jpg"
       },
       {
         "name": "Cecilia Immergreen",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/cecilia-color/bkndeiepomofpficmjmilmabkokkiohd",
         "emoji": "🍵",
         "image": "/themes/theme-cecilia-color/shop/cecilia_promotion-tile.jpg"
       },
       {
         "name": "Raora Panthera",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/raora-color/caaggojkdbmkbpnbhiiodgnhoglcnjfg",
         "emoji": "🐱",
         "image": "/themes/theme-raora-color/shop/raora_promotion-tile.jpg"
       },
