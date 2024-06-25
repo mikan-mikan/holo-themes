@@ -4,11 +4,21 @@
     official hololive website.<br />
     このサイトはファンによる非公式のものであり、hololiveの公式サイトとは一切関係ありません。
   </p>
-  <a href="https://hololive.hololivepro.com/" class="footer__link"
-    >hololive（ホロライブ）公式サイトはこちら</a
-  >
-  <a href="/privacy/" class="footer__link">Privacy Policy</a>
-  <a href="https://forms.gle/icZ34K4ioTKTQfK69" target="_blank">Contact</a>
+
+  <ul class="footer-links">
+    <li class="footer-links__item">
+      <a href="https://hololive.hololivepro.com/"
+        >hololive（ホロライブ）公式サイトはこちら</a
+      >
+    </li>
+    <li class="footer-links__item">
+      <a href="/privacy/">Privacy Policy</a>
+    </li>
+    <li class="footer-links__item">
+      <a href="https://forms.gle/icZ34K4ioTKTQfK69" target="_blank">Contact</a>
+    </li>
+  </ul>
+
   <p class="footer__copy">
     <small>&copy; 2024 kon-k.</small>
   </p>
@@ -21,12 +31,17 @@
     color: var(--color-primary);
     font-size: 1.4rem;
   }
-  .footer__link {
-    display: inline-block;
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  .footer__link:not(:last-child)::after {
+  .footer-links__item:not(:last-child)::after {
     content: "|";
     margin: 0 0.8em;
+  }
+  .footer-links__item a {
+    display: inline-block;
   }
   .footer__lead {
     margin-bottom: 1rem;
