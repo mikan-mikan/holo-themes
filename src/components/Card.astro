@@ -1,23 +1,27 @@
 ---
 interface Props {
   name: string;
+  name_jp: string;
   emoji: string;
   href: string;
   image: string;
 }
 
-const { href, name, emoji, image } = Astro.props;
+const { href, name, name_jp, emoji, image } = Astro.props;
 ---
 
 <li class="link-card">
   <a href={href}>
     <img src={image} alt="" />
-    <p>
+    <p class="emoji">
       {emoji}
     </p>
-    <h4>
+    <h4 class="name">
       {name}
     </h4>
+    <p class="name_jp">
+      {name_jp}
+    </p>
   </a>
 </li>
 
@@ -43,15 +47,20 @@ const { href, name, emoji, image } = Astro.props;
     background-color: var(--color-card-bg);
     opacity: 0.8;
   }
-  h4 {
+  .name {
     margin: 0;
     font-size: 2rem;
     transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   }
-  p {
+  .emoji {
     margin-top: 0.8rem;
     margin-bottom: 0;
   }
+  .name_jp {
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+  }
+
   .link-card > a img {
     border-radius: 0.5rem;
   }
