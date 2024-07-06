@@ -12,7 +12,13 @@ const { href, name, name_jp, emoji, image } = Astro.props;
 
 <li class="link-card">
   <a href={href}>
-    <img src={image} alt="" />
+    <img
+      src={image}
+      alt=`Chrome theme image of ${name}.`
+      width="277"
+      height="176"
+      loading="lazy"
+    />
     <p class="emoji">
       {emoji}
     </p>
