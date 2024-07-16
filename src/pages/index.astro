@@ -11,10 +11,18 @@ import { anchorLinkMain, anchorLinkList } from "../static/anchorLink.ts";
 import { talentData } from "../static/talentdata.ts";
 ---
 
-<Layout title="Hololove Chrome Themes">
+<Layout
+  title="Hololove Chrome Themes|List of Chrome Themes Created by Hololive Fans"
+>
   <main>
     <div class="container">
-      <h1 class="heading1">Hololive<br />Chrome Themes</h1>
+      <h1 class="heading1">
+        Here is a list of Chrome themes created by Hololive fans.
+      </h1>
+      <h2 class="heading2">
+        You can customize your Chrome browser with your favorite talent's
+        theme!✌️
+      </h2>
 
       <ul class="link-contents">
         <li class="link-contents__box">
@@ -419,7 +427,7 @@ import { talentData } from "../static/talentdata.ts";
     }
   }
   .heading1 {
-    font-size: 6.4rem;
+    font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-align: center;
@@ -430,7 +438,22 @@ import { talentData } from "../static/talentdata.ts";
 
   @media (max-width: 767px) {
     .heading1 {
-      font-size: 4.8rem;
+      font-size: 1.8rem;
+      line-height: 1.3;
+    }
+  }
+  .heading2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-family: "Noto Sans JP Variable", sans-serif;
+  }
+  @media (max-width: 767px) {
+    .heading2 {
+      font-size: 1.4rem;
       line-height: 1.3;
     }
   }
@@ -440,6 +463,7 @@ import { talentData } from "../static/talentdata.ts";
     gap: 4rem;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5rem;
   }
   .link-contents__box {
     display: flex;
