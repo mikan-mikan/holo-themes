@@ -69,7 +69,7 @@ export const talentData = {
     ],
     "Gen2": [
       {
-        "name": "Minato Aqua",
+        "name": "<Alum> Minato Aqua",
         "name_jp": "湊あくあ",
         "link": "https://chromewebstore.google.com/detail/aqua-color/noafonabioopmljnmcjmjakagodbmaen",
         "emoji": "⚓️",
