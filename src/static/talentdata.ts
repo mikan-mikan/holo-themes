@@ -378,7 +378,7 @@ export const talentData = {
         "image": "/themes/theme-gura-color/shop/gura_promotion-tile.jpg"
       },
       {
-        "name": "Amelia Watson",
+        "name": "<Affiliate> Amelia Watson",
         "name_jp": "アメリア・ワトソン",
         "link": "https://chromewebstore.google.com/detail/amelia-color/ladnlfdcpgofddjhldnlfahidjfkcihe",
         "emoji": "🔎",
