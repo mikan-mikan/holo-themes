@@ -30,7 +30,25 @@ const { title } = Astro.props;
       content="This page contains themes created by hololive fan. Which talent do you like?"
     />
     <meta name="viewport" content="width=device-width" />
-    <!-- TODO: OGP -->
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://holo-theme.vercel.app" />
+    <meta property="og:image" content="https://holo-theme.vercel.app/ogp.jpg" />
+    <meta
+      property="og:description"
+      content="This page contains themes created by hololive fan. Which talent do you like?"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta
+      name="twitter:description"
+      content="Discover fan-created Hololive themes for Chrome. Find themes for all your favorite talents."
+    />
+    <meta
+      name="twitter:image"
+      content="https://holo-theme.vercel.app/ogp.jpg"
+    />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
