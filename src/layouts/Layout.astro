@@ -57,17 +57,77 @@ const { title } = Astro.props;
     <title>{title}</title>
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://holo-themes.vercel.app",
-        "name": "Hololive Chrome Themes",
-        "description": "This page contains themes created by HOLOLIVE fans. Download the theme of your favorite talent.",
-        "publisher": {
-          "@type": "Person",
-          "name": "kon-k"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "url": "https://holo-themes.vercel.app/#JEN4",
+          "name": "Luna Color - 姫森ルーナ",
+          "description": "This page contains the Theme 1 created by HOLOLIVE fans. Download the theme of your favorite talent.",
+          "image": "https://holo-themes.vercel.app/themes/theme-luna-color/shop/luna_promotion-tile.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "HOLOLIVE"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "kon-k"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://holo-themes.vercel.app/#JEN4",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "url": "https://holo-themes.vercel.app/#JEN2",
+          "name": "Subaru Color - 大空スバル",
+          "description": "This page contains the Theme 2 created by HOLOLIVE fans. Download the theme of your favorite talent.",
+          "image": "https://holo-themes.vercel.app/themes/theme-subaru-color/shop/subaru_promotion-tile.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "HOLOLIVE"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "kon-k"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://holo-themes.vercel.app/#JEN2",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "url": "https://holo-themes.vercel.app/#JEN0",
+          "name": "Miko Color - さくらみこ",
+          "description": "This page contains the Theme 3 created by HOLOLIVE fans. Download the theme of your favorite talent.",
+          "image": "https://holo-themes.vercel.app/themes/theme-miko-color/shop/miko_promotion-tile.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "HOLOLIVE"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "kon-k"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://holo-themes.vercel.app/#JEN0",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
-      }
+      ]
     </script>
   </head>
   <body>
