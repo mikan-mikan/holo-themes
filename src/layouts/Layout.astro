@@ -27,31 +27,48 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="This page contains themes created by hololive fan. Which talent do you like?"
+      content="This page contains themes created by HOLOLIVE fans. Download the theme of your favorite talent."
     />
     <meta name="viewport" content="width=device-width" />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content="hololive Chrome Themes" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://holo-theme.vercel.app" />
-    <meta property="og:image" content="https://holo-theme.vercel.app/ogp.jpg" />
+    <meta property="og:url" content="https://holo-themes.vercel.app" />
+    <meta
+      property="og:image"
+      content="https://holo-themes.vercel.app/ogp.jpg"
+    />
     <meta
       property="og:description"
-      content="This page contains themes created by hololive fan. Which talent do you like?"
+      content="This page contains themes created by HOLOLIVE fans. Download the theme of your favorite talent."
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content="hololive Chrome Themes" />
     <meta
       name="twitter:description"
-      content="Discover fan-created Hololive themes for Chrome. Find themes for all your favorite talents."
+      content="This page contains themes created by HOLOLIVE fans. Download the theme of your favorite talent."
     />
     <meta
       name="twitter:image"
-      content="https://holo-theme.vercel.app/ogp.jpg"
+      content="https://holo-themes.vercel.app/ogp.jpg"
     />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://holo-themes.vercel.app",
+        "name": "Hololive Chrome Themes",
+        "description": "This page contains themes created by HOLOLIVE fans. Download the theme of your favorite talent.",
+        "publisher": {
+          "@type": "Person",
+          "name": "kon-k"
+        }
+      }
+    </script>
   </head>
   <body>
     <slot />
