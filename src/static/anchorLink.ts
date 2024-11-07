@@ -87,6 +87,11 @@ export const anchorLinkList = {
       id: "ReGLOSS",
       href: "#ReGLOSS",
     },
+    {
+      title: "FLOW GLOW",
+      id: "FLOWGLOW",
+      href: "#FLOWGLOW",
+    }
   ],
   EN: [
     {

@@ -594,6 +594,43 @@ export const talentData = {
         "emoji": "🐧⚡",
         "image": "/themes/theme-hajime-color/shop/hajime_promotion-tile.jpg"
       }
+    ],
+    "FLOWGLOW":[
+      {
+        "name": "Isaki Riona",
+        "name_jp": "響咲リオナ",
+        "link": "",
+        "emoji": "🎤👑",
+        "image": ""
+      },
+      {
+        "name": "Koganei Niko",
+        "name_jp": "虎金妃笑虎",
+        "link": "",
+        "emoji": "☺️🐅",
+        "image": ""
+      },
+      {
+        "name": "Mizumiya Su",
+        "name_jp": "水宮枢",
+        "link": "",
+        "emoji": "💬🔁💙",
+        "image": ""
+      },
+      {
+        "name": "Rindo Chihaya",
+        "name_jp": "輪堂 千速",
+        "link": "",
+        "emoji": "🎧🔧",
+        "image": ""
+      },
+      {
+        "name": "Kikirara Vivi",
+        "name_jp": "綺々羅々ヴィヴィ",
+        "link": "",
+        "emoji": "💅✨",
+        "image": ""
+      }
     ]
-  }
+  },
 }
