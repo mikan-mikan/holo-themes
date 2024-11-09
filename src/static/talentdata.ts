@@ -599,37 +599,37 @@ export const talentData = {
       {
         "name": "Isaki Riona",
         "name_jp": "響咲リオナ",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/riona-color/kponmgbjbpbhgccjdblnnipjpecbalkd",
         "emoji": "🎤👑",
-        "image": ""
+        "image": "/themes/theme-riona-color/shop/riona_promotion-tile.jpg"
       },
       {
         "name": "Koganei Niko",
         "name_jp": "虎金妃笑虎",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/niko-color/eldmnmcjbiekbbglkadeonapdlcalhnc",
         "emoji": "☺️🐅",
-        "image": ""
+        "image": "/themes/theme-niko-color/shop/niko_promotion-tile.jpg"
       },
       {
         "name": "Mizumiya Su",
         "name_jp": "水宮枢",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/su-color/cohhklfmanciajgkjnkpicccmognmejo",
         "emoji": "💬🔁💙",
-        "image": ""
+        "image": "/themes/theme-su-color/shop/su_promotion-tile.jpg"
       },
       {
         "name": "Rindo Chihaya",
         "name_jp": "輪堂 千速",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/chihaya-color/pahgepbaaimppgmephaocmmojckpighl",
         "emoji": "🎧🔧",
-        "image": ""
+        "image": "/themes/theme-chihaya-color/shop/chihaya_promotion-tile.jpg"
       },
       {
         "name": "Kikirara Vivi",
         "name_jp": "綺々羅々ヴィヴィ",
-        "link": "",
+        "link": "https://chromewebstore.google.com/detail/vivi-color/adpljldomlmkihfachpkildfgenfhpfg",
         "emoji": "💅✨",
-        "image": ""
+        "image": "/themes/theme-vivi-color/shop/vivi_promotion-tile.jpg"
       }
     ]
   },
