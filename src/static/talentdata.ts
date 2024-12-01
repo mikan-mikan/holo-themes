@@ -396,7 +396,7 @@ export const talentData = {
     ],
     "Council": [
       {
-        "name": "Ceres Fauna",
+        "name": "<Alum> Ceres Fauna",
         "name_jp": "セレス・ファウナ",
         "link": "https://chromewebstore.google.com/detail/fauna-color/jjeoiohjjgcjijogghfcmeelgbdpffpl",
         "emoji": "🌿",
@@ -447,7 +447,7 @@ export const talentData = {
         "image": "/themes/theme-irys-color/shop/irys_promotion-tile.jpg"
       },
       {
-        "name": "Ceres Fauna",
+        "name": "<Alum> Ceres Fauna",
         "name_jp": "セレス・ファウナ",
         "link": "https://chromewebstore.google.com/detail/fauna-color/jjeoiohjjgcjijogghfcmeelgbdpffpl",
         "emoji": "🌿",
