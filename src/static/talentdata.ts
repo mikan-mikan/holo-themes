@@ -261,7 +261,7 @@ export const talentData = {
         "image": "/themes/theme-koyori-color/shop/koyori_promotion-tile.jpg"
       },
       {
-        "name": "Sakamata Chloe",
+        "name": "<Affiliate> Sakamata Chloe",
         "name_jp": "沙花叉クロヱ",
         "link": "https://chromewebstore.google.com/detail/chloe-color/gehipbjbaincfbcendfenpheniapegac",
         "emoji": "🎣",
