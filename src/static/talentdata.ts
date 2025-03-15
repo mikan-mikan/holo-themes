@@ -76,7 +76,7 @@ export const talentData = {
         "image": "/themes/theme-aqua-color/shop/aqua_promotion-tile.jpg"
       },
       {
-        "name": "Murasaki Shion",
+        "name": "<Alum> Murasaki Shion",
         "name_jp": "紫咲シオン",
         "link": "https://chromewebstore.google.com/detail/shion-color/dibpbbcahmechpcccjbjdjhgkoieeich",
         "emoji": "🌙",
