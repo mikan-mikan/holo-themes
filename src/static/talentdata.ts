@@ -410,14 +410,14 @@ export const talentData = {
         "image": "/themes/theme-kronii-color/shop/kronii_promotion-tile.jpg"
       },
       {
-        "name": "Nanashi Mumei",
+        "name": "<Alum> Nanashi Mumei",
         "name_jp": "七詩ムメイ",
         "link": "https://chromewebstore.google.com/detail/mumei-color/cfhokhjmlioogaplcckcggjjnkpofean",
         "emoji": "🪶",
         "image": "/themes/theme-mumei-color/shop/mumei_promotion-tile.jpg"
       },
       {
-        "name": "Nanashi Mumei2",
+        "name": "<Alum> Nanashi Mumei2",
         "name_jp": "七詩ムメイ2",
         "link": "https://chromewebstore.google.com/detail/mumei2-color/ljbcoiojpdhkjcmmdojjppghlcdpnnkp",
         "emoji": "🪶",
@@ -461,14 +461,14 @@ export const talentData = {
         "image": "/themes/theme-kronii-color/shop/kronii_promotion-tile.jpg"
       },
       {
-        "name": "Nanashi Mumei",
+        "name": "<Alum> Nanashi Mumei",
         "name_jp": "七詩ムメイ",
         "link": "https://chromewebstore.google.com/detail/mumei-color/cfhokhjmlioogaplcckcggjjnkpofean",
         "emoji": "🪶",
         "image": "/themes/theme-mumei-color/shop/mumei_promotion-tile.jpg"
       },
       {
-        "name": "Nanashi Mumei2",
+        "name": "<Alum> Nanashi Mumei2",
         "name_jp": "七詩ムメイ2",
         "link": "https://chromewebstore.google.com/detail/mumei2-color/ljbcoiojpdhkjcmmdojjppghlcdpnnkp",
         "emoji": "🪶",
