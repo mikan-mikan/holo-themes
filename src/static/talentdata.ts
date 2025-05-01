@@ -371,7 +371,7 @@ export const talentData = {
         "image": "/themes/theme-Inanis-color/shop/inanis_promotion-tile.jpg"
       },
       {
-        "name": "Gawr Gura",
+        "name": "<Alum> Gawr Gura",
         "name_jp": "がうる・ぐら",
         "link": "https://chromewebstore.google.com/detail/gura-color/gajogpbeifkhcmlpcajcngnppokhhban",
         "emoji": "🔱",
