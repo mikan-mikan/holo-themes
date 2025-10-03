@@ -91,7 +91,7 @@ export const anchorLinkList = {
       title: "FLOW GLOW",
       id: "FLOWGLOW",
       href: "#FLOWGLOW",
-    }
+    },
   ],
   EN: [
     {
