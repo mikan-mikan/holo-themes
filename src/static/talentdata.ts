@@ -167,7 +167,7 @@ export const talentData = {
     ],
     Gen4: [
       {
-        name: "Amane Kanata",
+        name: "<Alum> Amane Kanata",
         name_jp: "天音かなた",
         link: "https://chromewebstore.google.com/detail/kanata-color/mikhmobcjpbjghpmicblkdknacpbigfl",
         emoji: "💫",
